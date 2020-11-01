@@ -1,8 +1,9 @@
 class Car
-    attr_accessor :color
+    attr_accessor :color, :driver
     
     def initialize
-        @color = 'salmon'        
+        @color = 'salmon'
+        @driver = 'Ann'        
     end
 
     def paint_car(new_color)
